@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+:root{
+    --main-background: linear-gradient(to left top, rgb(5, 40, 66), rgb(38, 96, 139),rgb(101, 173, 228));
+}
+h2{
+    text-transform: uppercase;
+}
+.signUp,
+.login{
+    min-height: 100vh;
+    background: var(--main-background);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.form-background{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 9rem 14rem;
+    box-shadow: 0 0 30px  rgba(255, 255, 255, 0.5);
+}
+.form-icon{
+    font-size: 1.5rem;
+    margin-right: 10px;
+    padding:5px 10px;
+    background:var(--main-background);
+    text-align: center;
+    border-radius: 10rem 14rem;
+}
+
+form button{
+    background:var(--main-background);
+    padding: 10px 20px;
+    border-radius: 1.5rem;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    transition: all 0.2s;
+}
+form button:hover{
+    padding: 11px 22px;
+}   
+#message{
+    color: red;
+    font-size: 1.2rem;
+    text-align: center;
+}
+/* profile */
+.profile{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+.profile-head{
+    background: var(--main-background);
+    color: #fff;
+}
+.logout{
+    background: none;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    border-radius: 1.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all 0.2s;
+}
+.logout:hover{
+    border: 2px solid #fff;
+}
