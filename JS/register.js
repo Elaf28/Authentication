@@ -28,6 +28,6 @@ document.getElementById('registerForm').addEventListener('submit', function(e) {
     showConfirmButton: false,
     timer: 1500
     }).then(() => {
-        window.location.href = "../HTML/login.html";
+        window.location.href = "./HTML/login.html";
     });
 });
