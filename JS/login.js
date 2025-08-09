@@ -20,7 +20,7 @@ document.getElementById('loginForm').addEventListener('submit', (e)=>{
             showConfirmButton: false,
             timer: 1500
         }).then(() => {
-            window.location.href = "/Authentication/HTML/profile.html";
+            window.location.href = `${window.location.origin}/Authentication/HTML/profile.html`;
         });
     }else{
         message.textContent = "Invalid email or password!";

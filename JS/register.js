@@ -28,6 +28,6 @@ document.getElementById('registerForm').addEventListener('submit', function(e) {
     showConfirmButton: false,
     timer: 1500
     }).then(() => {
-        document.getElementById("goToLogin").click();
+        window.location.href = `${window.location.origin}/Authentication/HTML/login.html`;
     });
 });
