@@ -20,6 +20,6 @@ logout.addEventListener("click", function() {
         showConfirmButton: false,
         timer: 1500
     }).then(() => {
-        window.location.href = `${window.location.origin}/Authentication/index.html`;
+        window.location.href = "/Authentication/HTML/login.html";
     });
 });
